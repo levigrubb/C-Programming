@@ -2,7 +2,10 @@
 My main C repository as I follow along with the book "C Programming: A Modern Approach" 2nd Edition by K.N. King
 
 ## The Chapers
-If you identify a folder named "Chapter X" -- you can find the book exercises there.
+If you identify a folder named "Chapter X" -- you can find the books programming projects there.
+
+If a programming project requires modification of an existing project, I will simply separate them with different commits.
+Each task will be labelled in the comments, so you can see what I've done.
 
 ## My code is my own
 All the code generated here is written solely by myself, UNLESS there is a series of comments at the top giving credit to another (sometimes I write the code that's in the examples in the book). While I do enjoy using AI to help with various tasks, I consider it completely dishonest to place code in my repository without at least giving AI the credit for when I do rely on it's code. As a result, any code you find that is written by AI will have comment above it decidedly declaring that I made it with AI, as well as the specific Model (i.e. ChatGPT, Claude, Gemini, etc).
