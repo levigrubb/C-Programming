@@ -12,7 +12,9 @@ Task 2:
 */
 
 int main(void) {
-    int radius = 10;
+    float radius;
+    printf("Enter radius: ");
+    scanf("%f", &radius);
     float pi = 3.14159;
     float volume = 4.0f / 3.0f * pi * (radius * radius * radius);
     printf("Volume:\t%f\n", volume);
