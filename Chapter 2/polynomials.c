@@ -5,6 +5,7 @@ Task 1:
 
 Task 2:
     Modify the program so that the polynomial is evaluated using the following formula (look in the book after Task 1 is complete)
+    ((((3x+2)x -5)x -1)x + 7)x - 6
 */
 
 #include <stdio.h>
@@ -15,8 +16,8 @@ int main(void) {
     printf("Enter a value in for X: ");
     float x;
     scanf("%f", &x);
-    float result = (3 * (x * x * x * x * x) + 2 * (x * x * x * x) - (5 * (x * x * x)) - (x * x) + (7 * x) - 6);
-    printf("Result: %f\n", result);
+    float result = ((((3 * x + 2) * x - 5) * x - 1) * x + 7) * x - 6;
+    ;printf("Result: %f\n", result);
 
     return 0;
 }
